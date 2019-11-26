@@ -6,7 +6,7 @@ const Card = (props) => {
     <div className='card'>
     <h3>{props.title}</h3>
     <p>{props.description}</p>
-    <button>🗑</button>
+    <button onClick={() => props.deleteIdea(props.id)}>🗑</button>
     </div>
   )
 }
