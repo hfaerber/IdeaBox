@@ -22,6 +22,14 @@ class Form extends Component {
       description: this.state.description,
     }
     this.props.addIdea(newIdea);
+    this.clearInputs();
+  }
+
+  clearInputs = () => {
+    this.setState( {
+      title: '',
+      description: ''
+    })
   }
 
   render() {
