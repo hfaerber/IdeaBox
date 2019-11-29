@@ -9,7 +9,7 @@ const Ideas = ({ideas, deleteIdea}) => {
       id={idea.id}
       title={idea.title}
       description={idea.description}
-      deleteIdea={deleteIdea}
+      deleteIdea={xdeleteIdea}
     />})
 
   return(
